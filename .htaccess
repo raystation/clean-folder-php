@@ -1,0 +1,8 @@
+RewriteEngine off
+
+RewriteRule ^index$ index.php
+RewriteRule ^work$ work.php
+RewriteRule ^work.dog$ work.php?name=dog
+RewriteRule ^work.dog2$ work.php?name=dog2
+RewriteRule ^work.cat$ work.php?name=cat
+RewriteRule ^work.capy$ work.php?name=capy
